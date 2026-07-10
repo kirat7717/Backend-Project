@@ -1,0 +1,46 @@
+# Package managers and dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build and compilation outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+target/
+
+# Testing and coverage artifacts
+coverage/
+.nyc_output/
+
+# Cache directories
+.cache/
+.eslintcache
+.parcel-cache
+.turbo/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# OS and system metadata
+.DS_Store
+Thumbs.db
+
+# Lockfiles (Optional: prevent formatting large generated files)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+# Local IDE configuration variants
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
